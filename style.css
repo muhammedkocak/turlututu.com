@@ -1,25 +1,66 @@
-.div1 {
-    background-color: black;
+.navbar {
+    background-color: #333333;
+    display: flex;
+    
+   
+    
 }
+.nav-links {
+    color: antiquewhite;
+    padding: 20px 15px;
+    border: hidden;
+
+}
+
+.nav-links:hover {
+    background-color: #272727;
+}
+
+
+
+
+ul {
+
+
+    list-style:none;
+    
+}
+
+
+
+.restdblogo {
+    max-width: 10%;
+    height: auto;
+    padding-left: 105px;
+    padding-top: 7px;
+}
+.main-nav {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    margin-left: -600px;
+    
+}
+
 .div2 {
-    background: blue;
+    background: #1E93CC;
 }
 .div3 {
-    background: white;
+    background: #ffffff;
 }
 .div4 {
-    background: blue;
+    background: #1E93CC;
 }
 .div5 {
-    background: white;
+    background: #EEEEEE;
 }
 .div6 {
-    background: lightgray;
+    background: #5d5d5d;
 }
 .div7 {
-    background: white;
+    background: #ffffff;
 }
 .div8 {
-    background: black;
+    background: #333333;
 
 }

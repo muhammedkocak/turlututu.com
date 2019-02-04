@@ -9,6 +9,7 @@
     color: antiquewhite;
     padding: 20px 15px;
     border: hidden;
+    text-decoration: none;
 
 }
 
@@ -16,13 +17,24 @@
     background-color: #272727;
 }
 
+.nav-link {
+    color: antiquewhite;
+    padding: 20px 15px;
+    border: hidden;
+    text-decoration: none;
+    margin-left: 550px;
 
+}
 
+.nav-link:hover {
+    background-color: #272727;
+}
 
 ul {
 
 
     list-style:none;
+   
     
 }
 
@@ -31,7 +43,7 @@ ul {
 .restdblogo {
     max-width: 10%;
     height: auto;
-    padding-left: 105px;
+    padding-left: 175px;
     padding-top: 7px;
 }
 .main-nav {
@@ -44,6 +56,31 @@ ul {
 
 .div2 {
     background: #1E93CC;
+}
+
+.getimage {
+    display:  flex;
+    flex-direction:  row;
+    justify-content: start;
+    max-height:90%;
+    max-width: 90%;
+    padding-top: 10px;
+    margin-left: 100px;
+
+    
+
+}
+
+.biglogo {
+    display:  flex;
+    flex-direction: row;
+    
+    max-height:20%;
+    max-width: 20%;
+    margin-top: -400px;
+   
+}
+
 }
 .div3 {
     background: #ffffff;
